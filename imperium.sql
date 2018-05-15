@@ -3,16 +3,16 @@
 /* Created on:     16/04/2018 15:15:52                          */
 /*==============================================================*/
 
-drop table if exists ALUNO;
+drop table if exists aluno;
 
 /*==============================================================*/
 /* Table: ALCADAS                                               */
 /*==============================================================*/
-create table ALUNO
+create table aluno
 (
-   ID		            smallint not null AUTO_INCREMENT,
-   NOME                 varchar(200),
-   CPF 			        varchar(14),
-   primary key (ID)
+   id		            smallint not null AUTO_INCREMENT,
+   nome                    varchar(200),
+   cpf 			       varchar(14),
+   primary key (id)
 )
 auto_increment = 1;
